@@ -6,11 +6,162 @@
   background: linear-gradient(to bottom right, #7474BF, #348AC7); /* Standard syntax */
 }
 
+.container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .title {
   text-align: center;
 }
 
 .images {
+  width: 50%;
+  display: block;
+  margin-left: 50px;
+  margin-right: auto;
+
+}
+
+.guess {
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+
+.word {
+  text-align: center;
   display: block;
   margin: auto;
+}
+
+#counter-label {
+  width: 50%;
+}
+
+.input-field2 {
+  height: 33px;
+  width: 50px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.input-field1 {
+  height: 33px;
+  margin-right: 0px;
+  padding-right: 0px;
+  border: none;
+  margin-bottom: 0;
+}
+
+.input-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 33px;
+  margin-left: -5px;
+  margin-bottom: 0;
+  margin-bottom: 2px;
+}
+
+.guess-btn {
+padding-left: 5px;
+padding-right: 5px;
+width: 55px;
+
+
+}
+
+p {
+  margin: none;
+  padding: none;
+}
+
+#wordDisplay {
+  letter-spacing: 2.5px;
+}
+
+.hiddens {
+  letter-spacing: 2.5px;
+  -webkit-text-security: disc;
+}
+
+
+
+.revealed {
+  display: inline-block;
+  font-size: 1.17em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+}
+
+#spent {
+  text-align: center;
+  display: flex;
+}
+
+#nope {
+  max-width: 100px;
+  display: flex;
+  font-size: 1.5em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+}
+
+#reset {
+  text-align: center;
+}
+
+.images {
+  height: 300px;
+  width: 350px;
+  background-repeat: no-repeat;
+}
+
+.img1 {
+  background-image: url("images/01.png");
+}
+
+.img2 {
+  background-image: url("images/02.png");
+}
+
+.img3 {
+  background-image: url("images/03.png");
+}
+
+.img4 {
+  background-image: url("images/04.png");
+}
+
+.img5 {
+  background-image: url("images/05.png");
+}
+
+.img6 {
+  background-image: url("images/06.png");
+}
+
+.img7 {
+  background-image: url("images/07.png");
+}
+
+.img8 {
+  background-image: url("images/08.png");
+}
+
+.img9 {
+  background-image: url("images/09.png");
+}
+
+.img10 {
+  background-image: url("images/010.png");
+}
+
+.img11 {
+  background-image: url("images/010.png");
 }

@@ -9,18 +9,41 @@
         <link href="hangman.css" rel="stylesheet" type="text/css">
     </head>
     <body class="jumbotron main">
-      <div class="container-fluid">
-          <div class="row title">
-          <h1>HANGMAN!</h1>
+      <div class="row ">
+      <h1 class="title">HANGMAN!</h1>
+      </div>
+      <div class="container-fluid container">
+        <div id="counter-label">
+          <h3><span id="guessNum"></span> Remaining!</h3>
+          <div class="guess">
+            <input id="userGuesses" class="input-field2" type="text" placeholder="Guess"></input>
+            <button id="userGuessBtn" class="btn btn-success guess-btn" >Enter</button>
           </div>
-          <div>
-            <img class="images" src="images/02.png"></img>
+        </div>
+        <div id="imgDisplay" class="images img1">
+        </div>
+        <div>
+          <div id="spent">
+            <h2> SPENT LETTERS:</h2>
           </div>
+        <div id="nope">
+        </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="word">
+          <input id="userInput" class="input-field1" type="text" placeholder="Type word here"></input>
+          <button id="userInputBtn" class="btn btn-success input-btn" >Enter</button>
+        </div>
+        <div class="word">
+        <p id="wordDisplay" ></p><br>
+        </div>
       </div>
       <div>
-
+        <div id="reset">
+          <button id="resetGame" class="btn btn-danger reset-btn" >Reset</button>
+        </div>
       </div>
-
     </body>
 
   </html>
